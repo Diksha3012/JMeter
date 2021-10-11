@@ -30,7 +30,7 @@
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">www..facebook.com</stringProp>
+          <stringProp name="HTTPSampler.domain">www.facebook.com</stringProp>
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -158,7 +158,7 @@
         </ResultCollector>
         <hashTree/>
         <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-          <stringProp name="ConstantTimer.delay">3</stringProp>
+          <stringProp name="ConstantTimer.delay">3000</stringProp>
           <stringProp name="RandomTimer.range">5000</stringProp>
         </UniformRandomTimer>
         <hashTree/>
